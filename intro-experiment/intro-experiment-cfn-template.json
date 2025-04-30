@@ -5,7 +5,8 @@
             "Properties" : {
                 "Description": "Terminate half of the instances in the auto scaling group",
                 "Tags": {
-                    "Name": "FisWorkshop-Exp1-CloudFormation"
+                    "Name": "FisWorkshop-Exp1-CloudFormation",
+                    "experiment": "ready"
                 },
                 "Actions": {
                     "FisWorkshopAsg-TerminateInstances": {

@@ -1,7 +1,7 @@
 {
-    "description": "Terminate half of the instances in the auto scaling group",
+    "description": "Fill up the disk",
     "tags": {
-        "Name": "FisWorkshop-Exp1-CLI"
+        "Name": "EC2 full disk experiment"
     },
     "actions": {
         "FisWorkshopAsg-TerminateInstances": {
